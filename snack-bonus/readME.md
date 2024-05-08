@@ -18,10 +18,14 @@ T = 'd'
 definisco una funzione inserisciInTesta(inputArray, ElementToAdd)
     definisco una variabile tempValueKeeper
 
-    definisco una costante cont 
+    definisco una variabile cont 
     creo un ciclo while che continui fino a che inputArray[cont] sia diverso da undefined
         salvo il valore attualmente presente in inputArray[cont] dentro tempValuekeeper
-    
-    inserisco in inputArray[cont] il valore presente in tempValueKeeper
+        inserisco in inputArray[cont] il valore presente in ElementToAdd
+        inserisco in ElementToAdd il tempValueKeeper
+
+        incremento il contatore
+
+    inserisco in inputArray[cont] il valore presente in ElementToAdd
 
     restituisco inputArray
