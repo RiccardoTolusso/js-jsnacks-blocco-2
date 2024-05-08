@@ -25,7 +25,7 @@ definisco la funzione trovaIndice(inputArray, inputElement, allOccurencies = fal
             se corrisponde e allOccurencies è false
                 restituisco il valore del contatore
 
-            se corrisponde e allOccurencies è vero
+            se corrisponde e allOccurencies è vero (potrei evitare di usare un else ma lo mantengo per leggibilità del codice)
                 aggiungo ad indexes in posizione currentIndex il valore del contatore
                 incremento currentIndex di 1
     
