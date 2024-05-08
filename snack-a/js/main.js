@@ -10,9 +10,9 @@ function riccardosLength(inputArray){
         result += 1
     }
     // restituisco il valore di result
-    console.log(result)
     return result;
 }
 
-riccardosLength([])
+// test
+console.log(riccardosLength([]))
 
