@@ -7,7 +7,7 @@ Allora ovviamente non avrebbe senso utilizzare la length perchè risolverebbe da
 
 Potrei usare il array[i] per accedere alle posizioni e bloccarmi quando non trovo nulla ma potrei essere soggetto a problemi qualora lo spazio in memora immediatamente successivo non fosse vuoto
 
-Penso che utilizzerò per questo caso d'uso il .at() che mi ritorna undefined qualora il valore non fosse parte dell'array
+Ho controllato con Christian e questa eccezione viene gestita autonomamento da javascript quindi procedo ad utilizzare le [] per accedere ai valori
 
 Rimane da pensare al fatto che per ora darò per scontato che non ci siano valori undefined nell'array di input altrimenti la logica del mio codice cade
 
