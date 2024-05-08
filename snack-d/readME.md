@@ -26,3 +26,9 @@ definisco una funzione clonePieceOfArray(inputArray, start, stop)
 
 definisco una funzione rimuoviDallaCoda(inputArray)
     invoco e restituisco la funzione clonePieceOfArray(inputArray, 0, riccardosLength(inputArray)-1)
+
+
+**GIUSTO UNO SPUNTO DI RIFLESSIONE**
+essendo che la consegna vuole che non vengano utilizzate funzioni degli array
+avremmo potuto risolvere il problema riducendo di 1 la length dell'array il che in automatico trancia l'ultimo elemento 
+ciò nonostante sarebbe stato a livello didattico quasi inutile 
