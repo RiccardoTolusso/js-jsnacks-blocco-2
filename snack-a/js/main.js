@@ -11,8 +11,8 @@ function riccardosLength(inputArray){
     }
     // restituisco il valore di result
     console.log(result)
+    return result;
 }
 
 riccardosLength([])
-
 
